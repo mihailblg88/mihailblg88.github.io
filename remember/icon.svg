@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2D3F92"/><stop offset="1" stop-color="#3B1F6E"/></linearGradient>
+  <linearGradient id="boxFront" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB25A"/><stop offset="1" stop-color="#F25A5A"/></linearGradient>
+  <linearGradient id="boxSide" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F08A3E"/><stop offset="1" stop-color="#D2434F"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE3A3" stop-opacity="0.85"/><stop offset="1" stop-color="#FFE3A3" stop-opacity="0.05"/></linearGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC27A"/><stop offset="1" stop-color="#F0603E"/></linearGradient>
+  <radialGradient id="lens" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="0.5" stop-color="#C9D4FF" stop-opacity="0.55"/><stop offset="1" stop-color="#8E7BE0" stop-opacity="0.6"/></radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#120a3a" flood-opacity="0.45"/></filter>
+</defs><rect width="108" height="108" fill="url(#bg)"/><g transform="translate(54 54) scale(0.92) translate(-56 -54)">
+  <path d="M92 9.8Q92.756 13.244 96.2 14Q92.756 14.756 92 18.2Q91.244 14.756 87.8 14Q91.244 13.244 92 9.8Z" fill="#FFD27A"/><path d="M99 25.6Q99.432 27.568 101.4 28Q99.432 28.432 99 30.4Q98.568 28.432 96.6 28Q98.568 27.568 99 25.6Z" fill="#D9CCFF"/><path d="M16 31.2Q16.504 33.496 18.8 34Q16.504 34.504 16 36.8Q15.496 34.504 13.2 34Q15.496 33.496 16 31.2Z" fill="#D9CCFF"/><path d="M18 89.8Q18.396 91.604 20.2 92Q18.396 92.396 18 94.2Q17.604 92.396 15.8 92Q17.604 91.604 18 89.8Z" fill="#D9CCFF"/>
+  <g filter="url(#shadow)">
+    <path d="M14 58 L46 51 L82 58 L50 65Z" fill="#3A2470"/>
+    <rect x="22" y="46" width="13" height="16" rx="2" fill="#FFCB4A" transform="rotate(-10 28 54)"/>
+    <rect x="38" y="47" width="15" height="14" rx="2" fill="#6C8CFF" transform="rotate(5 45 54)"/>
+    <rect x="56" y="50" width="11" height="13" rx="2" fill="#FF7A9A" transform="rotate(14 61 56)"/>
+  </g>
+  <path d="M50 38 L76 46 L74 62 L28 60Z" fill="url(#beam)"/>
+  <g filter="url(#shadow)">
+    <path d="M14 58 L50 65 L50 95 L14 86Z" fill="url(#boxFront)"/>
+    <path d="M50 65 L82 58 L82 87 L50 95Z" fill="url(#boxSide)"/>
+    <path d="M24 70 L38 73" stroke="#B8344A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <line x1="80" y1="45" x2="96" y2="63" stroke="url(#ring)" stroke-width="8.5" stroke-linecap="round"/>
+    <circle cx="66" cy="29" r="19" fill="url(#lens)" stroke="url(#ring)" stroke-width="6.5"/>
+    <path d="M55 21a13 13 0 0 1 8-5" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g></g></svg>
